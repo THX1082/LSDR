@@ -16,6 +16,12 @@
 			<Item Name="FSK - Sender.vi" Type="VI" URL="../../FSK/FSK - Sender.vi"/>
 			<Item Name="HAM Digital Radio - UI.vi" Type="VI" URL="../../HAM Digital Radio - UI.vi"/>
 		</Item>
+		<Item Name="Objects" Type="Folder">
+			<Item Name="AudioConfig_OBJ.vi" Type="VI" URL="../../Objects/AudioConfig_OBJ.vi"/>
+			<Item Name="ErrorHandler.vi" Type="VI" URL="../../ErrorHandler/ErrorHandler.vi"/>
+			<Item Name="ErrorHandler_OBJ.vi" Type="VI" URL="../../ErrorHandler/ErrorHandler_OBJ.vi"/>
+			<Item Name="FSK_OBJ.vi" Type="VI" URL="../../FSK/Object/FSK_OBJ.vi"/>
+		</Item>
 		<Item Name="HAM Digital Radio.vi" Type="VI" URL="../../HAM Digital Radio.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -53,9 +59,10 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="AudioConfig_OBJ - PROP.ctl" Type="VI" URL="../../Objects/AudioConfig_OBJ - PROP.ctl"/>
+			<Item Name="ErrorHandler_OBJ - PROP.ctl" Type="VI" URL="../../ErrorHandler/ErrorHandler_OBJ - PROP.ctl"/>
 			<Item Name="FSK - TESTBENCH2.vi" Type="VI" URL="../../FSK/FSK - TESTBENCH2.vi"/>
 			<Item Name="FSK_OBJ - PROP.ctl" Type="VI" URL="../../FSK/Object/FSK_OBJ - PROP.ctl"/>
-			<Item Name="FSK_OBJ.vi" Type="VI" URL="../../FSK/Object/FSK_OBJ.vi"/>
 			<Item Name="HDR - Queues.ctl" Type="VI" URL="../../STYPS/HDR - Queues.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
